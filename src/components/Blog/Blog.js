@@ -36,6 +36,17 @@ const Blog = () => {
               2. React typewriter-effect
             </a>
           </Row>
+          <Row style={{ paddingBottom: "10px" }}>
+            <a
+              className="blog-link"
+              href="https://hamiduldiu.medium.com/send-email-with-emailjs-bfe5abcc0871"
+              target="_blank"
+              rel="noreferrer"
+              style={{ fontSize: "1.2em" }}
+            >
+              3. React typewriter-effect
+            </a>
+          </Row>
         </Container>
       </Container>
       <Footer />
