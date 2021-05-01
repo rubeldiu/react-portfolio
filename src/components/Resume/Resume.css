@@ -1,0 +1,32 @@
+.resume-section{
+  position: relative !important;
+  padding-top: 110px !important;
+  padding-bottom: 30px !important; 
+
+}
+.resume{
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.resume-left{
+    padding-right: 80px !important;
+}
+.resume-right{
+    padding-left: 80px !important;
+}
+.resume-title{
+    font-size: 2em;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.project-heading{
+    font-size: 2.3em !important;
+    font-weight: 500 !important;
+    padding-top: 10px !important;
+    margin-bottom: 20px !important;
+
+}
+.main-name{
+    color: #16a085;
+}

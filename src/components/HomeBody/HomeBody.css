@@ -1,0 +1,23 @@
+.home-about-section{
+    position: relative;
+  padding-bottom: 40px !important;
+  padding-top: 40px !important;
+
+}
+
+.home-about-description{
+
+    padding-top: 100px !important;
+    padding-bottom: 20px !important;
+    text-align: center;
+}
+
+.home-about-body{
+    padding-top: 50px;
+    font-size: 1.2em !important;
+    text-align: left;
+
+}
+.main-name{
+    color: #16a085;
+}

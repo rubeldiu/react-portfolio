@@ -1,0 +1,36 @@
+.resume-item{
+    padding: 0 0 10px 25px;
+  margin-top: -2px;
+  border-left: 2px solid #16a085;
+  position: relative;
+
+}
+.resume-title{
+    padding: 0 0 10px 25px;
+  margin-top: -2px;
+  border-left: 2px solid #16a085;
+  position: relative;
+
+}
+.resume-item ul {
+    padding-left: 20px;
+    text-align: justify;
+  }
+  .resume-item ul li {
+    padding-bottom: 10px;
+    list-style: none;
+  }
+ .resume-item:last-child {
+    padding-bottom: 0;
+  }
+  .resume-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #fff;
+    border: 2px solid #16a085;
+  }
