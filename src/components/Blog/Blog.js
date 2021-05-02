@@ -44,7 +44,7 @@ const Blog = () => {
               rel="noreferrer"
               style={{ fontSize: "1.2em" }}
             >
-              3. React typewriter-effect
+              3. React send email with emailjs
             </a>
           </Row>
         </Container>

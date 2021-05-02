@@ -1,5 +1,6 @@
 import React from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Button, Col, Container, Row } from 'react-bootstrap';
+import pdf from '../../assets/Hamidul-Resume.pdf'
 import './HomeBody.css'
 
 const HomeBody = () => {
@@ -44,6 +45,11 @@ web api with c#.
             </Col>
            
           </Row>
+          <Row style={{ justifyContent: "center", position: "relative" }}>
+          <Button variant="primary" href={pdf} target="_blank">
+            <i className="fas fa-download">&nbsp;</i>Download CV
+          </Button>
+        </Row>
         </Container>
       </Container>
     );
