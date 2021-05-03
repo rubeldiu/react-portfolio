@@ -10,7 +10,7 @@ import './Resume.css'
 const Resume = () => {
     return (
         <>
-        <Navigation/>
+        
         <Container fluid className="resume-section">
     
       <Container> 
@@ -63,7 +63,7 @@ const Resume = () => {
         <Tech/>
       </Container>
     </Container>
-    <Footer/>
+    
     </>
     );
 };

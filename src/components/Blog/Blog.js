@@ -7,7 +7,7 @@ import "./Blog.css";
 const Blog = () => {
   return (
     <div>
-      <Navigation />
+      
       <Container fluid className="blog-section">
         <Container>
           <h1 className="project-heading">
@@ -49,7 +49,7 @@ const Blog = () => {
           </Row>
         </Container>
       </Container>
-      <Footer />
+     
     </div>
   );
 };

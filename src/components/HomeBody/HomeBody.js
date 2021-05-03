@@ -5,7 +5,7 @@ import './HomeBody.css'
 
 const HomeBody = () => {
     return (
-        <Container fluid className="home-about-section" id="about">
+        <Container fluid className="home-about-section" style={{color:"white"}} id="about">
         <Container>
           <Row>
             <Col md={12} className="home-about-description">

@@ -9,7 +9,7 @@ const Header = () => {
     return (
         <section>
           
-        <Container fluid className="home-section" id="home">
+        <Container fluid className="home-section" style={{color:"white"}} id="home">
         
           <Container className="home-content">
             <Row>

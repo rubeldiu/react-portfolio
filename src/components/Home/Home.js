@@ -1,21 +1,18 @@
 import React from 'react';
-import Navigation from '../common/Navigation/Navigation';
-import Footer from '../Footer/Footer';
+import { Container } from 'react-bootstrap';
 import Header from '../Header/Header';
 import HomeBody from '../HomeBody/HomeBody';
-import Tech from '../Tech/Tech';
-
-
+import Particle from '../Particle';
 
 const Home = () => {
     return (
-        <div>
-             
-            <Navigation/>
+        <section>
+        <Container fluid className="home-section" id="home">
+          <Particle />
             <Header/>
             <HomeBody/>
-            <Footer/>
-        </div>
+           </Container>
+        </section>
     );
 };
 

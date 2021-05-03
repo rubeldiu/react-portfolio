@@ -8,12 +8,16 @@ import Blog from './components/Blog/Blog';
 import Projects from './components/Projects/Projects';
 import Resume from './components/Resume/Resume';
 import Contact from './components/Contact/Contact';
+import Navigation from './components/common/Navigation/Navigation';
+import Footer from './components/Footer/Footer';
 
 function App() {
   
   return (
     <Router>
-       
+      
+       <div>
+       <Navigation/>
     <Switch>
       <Route exact path="/">
         <Home />
@@ -32,6 +36,8 @@ function App() {
         <Projects />
       </Route>
     </Switch>
+    <Footer />
+    </div>
   </Router>
   );
 }

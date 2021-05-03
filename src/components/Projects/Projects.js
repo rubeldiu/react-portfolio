@@ -15,7 +15,7 @@ import Footer from '../Footer/Footer';
 const Projects = () => {
     return (
         <>
-        <Navigation/>
+       
         <Container fluid className="project-section">     
       <Container>
         <h1 className="project-heading">
@@ -84,7 +84,7 @@ const Projects = () => {
         </Row>        
       </Container>
     </Container>
-    <Footer/>
+    
             
         </>
     );

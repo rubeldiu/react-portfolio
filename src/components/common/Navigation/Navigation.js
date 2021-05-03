@@ -16,7 +16,7 @@ const Navigation = () => {
             ><h4>Md Hamidul Islam</h4></Link>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="mr-auto">
+                <Nav className="ml-auto">
                     <Link className="nav-link" to="/">Home</Link>
                     <Link className="nav-link" to="/projects">Projects</Link>
                     <Link className="nav-link" to="/blog">Blog</Link>

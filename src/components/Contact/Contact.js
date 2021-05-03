@@ -35,7 +35,7 @@ const Contact = () => {
     
     return (
         <>
-            <Navigation/>
+           
             <Container fluid className="project-section"> 
             <Container>
             <h1 className="project-heading">
@@ -75,7 +75,7 @@ const Contact = () => {
                 </Form>
              </Container>   
             </Container>
-    <Footer/>
+    
     </>
     );
 };
