@@ -45,11 +45,11 @@ web api with c#.
             </Col>
            
           </Row>
-          <Row style={{ justifyContent: "center", position: "relative" }}>
+          {/* <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button variant="primary" href={pdf} target="_blank">
             <i className="fas fa-download">&nbsp;</i>Download CV
           </Button>
-        </Row>
+        </Row> */}
         </Container>
       </Container>
     );

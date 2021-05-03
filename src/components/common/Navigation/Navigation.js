@@ -1,8 +1,9 @@
 
 import React from 'react';
-import { Navbar, Nav} from 'react-bootstrap';
+import { Navbar, Nav, Button} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
  import './Navigation.css'
+ import pdf from '../../../assets/Hamidul-Resume.pdf'
 
 
 const Navigation = () => {
@@ -32,6 +33,9 @@ const Navigation = () => {
                             <i class="fab fa-linkedin fa-lg"></i>
                             Linkedin</span>
                     </Nav.Link>
+                    <Button variant="primary" href={pdf} target="_blank">
+            <i className="fas fa-download">&nbsp;</i>Download CV
+          </Button>
                    
                 </Nav>
 
