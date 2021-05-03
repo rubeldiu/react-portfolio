@@ -10,14 +10,10 @@ import Resume from './components/Resume/Resume';
 import Contact from './components/Contact/Contact';
 
 function App() {
-  const [loader,setLoader]=useState(true);
-  useEffect(()=>{
-    setTimeout(()=>{
-      setLoader(false);
-    },1200)
-  },[])
+  
   return (
     <Router>
+       
     <Switch>
       <Route exact path="/">
         <Home />

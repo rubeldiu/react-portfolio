@@ -4,6 +4,7 @@ import pdf from '../../assets/Hamidul-Resume.pdf'
 import Navigation from '../common/Navigation/Navigation';
 import Footer from '../Footer/Footer';
 import Resumecontent from '../Resumecontent/Resumecontent';
+import Tech from '../Tech/Tech';
 import './Resume.css'
 
 const Resume = () => {
@@ -59,6 +60,7 @@ const Resume = () => {
             <i className="fas fa-download">&nbsp;</i>Download CV
           </Button>
         </Row>
+        <Tech/>
       </Container>
     </Container>
     <Footer/>

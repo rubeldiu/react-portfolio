@@ -3,12 +3,14 @@ import { Col, Container, Row } from 'react-bootstrap';
 import Type from '../Type/Type';
 import myImg from '../../assets/hamidul.jpg'
 import './Header.css'
+import Particle from '../Particle';
 
 const Header = () => {
     return (
         <section>
+          
         <Container fluid className="home-section" id="home">
-         
+        
           <Container className="home-content">
             <Row>
               <Col md={7} className="home-header">

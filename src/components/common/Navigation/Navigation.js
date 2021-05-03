@@ -22,12 +22,12 @@ const Navigation = () => {
                     <Link className="nav-link" to="/blog">Blog</Link>
                     <Link className="nav-link" to="/resume">Resume</Link>
                     <Link className="nav-link" to="/contact">Contact Me</Link>                   
-                    <Nav.Link href="https://github.com/rubeldiu">
+                    <Nav.Link href="https://github.com/rubeldiu" target="_blank">
                         <span>
                             <i class="fab fa-github fa-lg"></i>
                             Github</span>
                     </Nav.Link>
-                    <Nav.Link href="https://www.linkedin.com/in/md-hamidul-islam-16aa04b/">
+                    <Nav.Link href="https://www.linkedin.com/in/md-hamidul-islam-16aa04b/" target="_blank">
                         <span>
                             <i class="fab fa-linkedin fa-lg"></i>
                             Linkedin</span>
